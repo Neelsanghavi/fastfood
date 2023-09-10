@@ -1,0 +1,123 @@
+/*css reset*/
+*
+{
+    margin:0;
+    padding:0;
+}
+/*navigation part*/
+#navbar
+{
+    display:flex;
+    text-align:center;
+    border:10px double mediunvioletred;
+
+}
+#logo
+{
+    margin:0;
+}
+#logo img
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    border: 5px solod darkmagenta;    
+
+}
+ul li
+{
+    margin-top: 20px;
+    color:black;
+    list-style-type: square;
+    font-size: 20px;
+    font-family: serif verdana helvetica;
+}          
+ul li a 
+{
+    color:cyan;
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: underline;
+    background-color:yellow;           
+}
+a:hover
+{
+
+    color:green;
+    background-color: white;
+}
+a:active
+{
+color: red;
+background-color: white;
+
+}
+/*home part*/
+h1
+{
+    text-align: center;
+    font-family: serif;
+    font-size: 50px;
+    color: pink;
+
+}
+p
+{
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    display: block;
+    background-color: teal;
+    color: white;
+
+}
+div
+{
+    float:right;
+    margin:50px;
+}
+#btn
+
+{
+    border: 5px solid red;
+    border-radius: 15px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 30px;
+
+}
+/*services part*/
+h1
+{
+    font-size: 50px;
+    color: green;
+    font-family: serif;
+    text-align: center;
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    text-decoration: underline;
+}
+h2
+{
+    font-size: 25px;
+    font-family: verdana;
+    color: blueviolet;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+#nm
+
+{
+    font-size: 20px;
+    font-family: verdana;
+    background-color: blueviolet;
+    color:white;
+    margin-top: 30px;
+    text-align: center;
+    width:80%;
+    height: 50px;
+}
+/*about us part*/
